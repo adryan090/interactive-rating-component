@@ -144,3 +144,30 @@ main {
 .thank-you-state.hidden {
   display: none;
 }
+
+/* <480px */
+@media (max-width: 480px) {
+  main {
+    width: 90%;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+  .text {
+    font-size: 14px;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+  }
+}
+
+/* <375px */
+@media (max-width: 400px) {
+  .rating-icon,
+  .rating {
+    width: 40px;
+    height: 40px;
+  }
+}
